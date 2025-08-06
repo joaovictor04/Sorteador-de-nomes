@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 3%;
+    font-size: 50px;
+    font-style: italic;
+    color: azure;
+    text-shadow: 5px 5px 5px rgba(6, 177, 177, 0.8);
+}
+
+img {
+    margin: -4% 0 0 40%;
+    width: 400px;
+    height: 400px;
+}
+
+h2{
+    text-align: center;
+    color: azure;
+    margin-top: 3%;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    color: azure;
+}
+
+input{
+    width: 80%;
+    height: 5vh;
+    border: none;
+    border-radius: 40px 0 0 40px;
+}
+
+.addLista {
+    width: 20%;
+    height: 5vh;
+    border: none;
+    background-color: rgb(219, 214, 214);
+    font-size: 50px;
+    font-size: 100%;
+    border-radius: 0 40px 40px 0;
+}
+
+.addLista:hover{
+    background-color: rgb(170, 164, 164);
+    font-weight: bolder;
+}
+
+.enviar{
+    width: 20%;
+    height: 5vh;
+    margin-top: 5%;
+    background-color: rgba(0, 255, 255, 0.815);
+    font-size: 50px;
+    font-size: 100%;
+    font-weight: 500;
+    border-radius: 40px;
+}
+
+.enviar:hover{
+    background-color: rgba(6, 177, 177, 0.8);
+    font-weight: bolder;
+}
