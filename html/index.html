@@ -6,7 +6,7 @@
     <title>Sorteador</title>
     <link rel="stylesheet" href="/Sorteador-de-nomes/css/estilos.css">
     <link rel="stylesheet" href="/Sorteador-de-nomes/css/containers.css">
-    <script src="/Sorteador-de-nomes/js/script.js"></script>
+    <script src="/Sorteador-de-nomes/js/script.js" ></script>
 </head>
 <body>
     <header>
@@ -19,21 +19,25 @@
                 <div class="parteDeBaixoNovo">
                     <div class="texto">
                         <h2>Digite o nome dos jogadores</h2>
-                        <p>teste</p>
+                        <ul id="listaDeNomes">
+                        </ul>
                     </div>
                 <div class="inputInfo">
                     <div class="box">
-                        <input type="text">
-                        <button class="addLista" id="addLista">Adicionar</button>
+                        <input type="text" placeholder="Digite um nome aqui" id="adicionarLista">
+                        <button onclick="addLista ()" class="addLista">Adicionar</button>
                     </div>
                 </div>
+                <p class="resultado" id="resultado"></p>
                 <div class="butaoEnviar">
-                    <button class="enviar" id="enviar">Sortear</button>
+                    <button onclick="sortear ()" class="enviar">Sortear</button>
                 </div>
                 </div>
             </div>
         </div>
     </header>
-    <footer><p class="footer">teste</p></footer>
+    <footer>
+        <p class="footer">&copy Todos os diretos reservados a João Victor</p>
+    </footer>
 </body>
 </html>

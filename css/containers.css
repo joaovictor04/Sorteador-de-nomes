@@ -16,7 +16,7 @@
     height: 45vh;
     width: 100%;
     display: flex;
-    background-color: rgb(87, 202, 41); 
+    background-color: rgb(202, 146, 41); 
 }
 
 .parteDeBaixoNovo{
@@ -34,7 +34,7 @@
     height: 5vh;
     width: 100%;
     display: flex;
-    margin-top: 10%;
+    margin-top: 3%;
     justify-content: center;
     align-items: center;
     
@@ -57,5 +57,5 @@
 footer{
     height: 5vh;
     width: 100%;
-    background-color: rgb(87, 202, 41);
+    background-color: rgb(202, 146, 41);
 }
